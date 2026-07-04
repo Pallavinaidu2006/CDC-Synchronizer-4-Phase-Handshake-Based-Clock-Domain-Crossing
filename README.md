@@ -13,11 +13,12 @@ Verified with 2000 randomized transfers, using two clocks running at unrelated s
 
 Files:
 
-File                 What it does
-sync_2ff.v           2-flip-flop synchronizer for single-bit signals
-cdc_handshake.v      Sender + receiver FSMs implementing the handshake
-cdc_top.v            Top-level wrapper
-tb_cdc.v             Self-checking testbench 
+| File | What it does |
+|---|---|
+| `sync_2ff.v` | 2-flip-flop synchronizer for single-bit signals |
+| `cdc_handshake.v` | Sender + receiver FSMs implementing the handshake |
+| `cdc_top.v` | Top-level wrapper |
+| `tb_cdc.v` | Self-checking testbench |
 
 How the transfer works:
 
